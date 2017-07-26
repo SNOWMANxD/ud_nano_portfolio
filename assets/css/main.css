@@ -1,0 +1,122 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 20px 100px;
+}
+
+.headline {
+	padding: 15px 0;
+	font-family: "Open Sans";
+	border-bottom: 5px solid #7d97ad;
+	margin-bottom: 25px;
+}
+
+.headline h1 {
+	text-align: right;
+	margin-bottom: 0px;
+	font-size: 42px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.headline h3 {
+	text-align: right;
+	margin-top: 0px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.row {
+	width: 100%;
+}
+
+.row:before, 
+.row:after {
+	content:"";
+	display: table;
+	clear:both;
+}
+
+[class*='col-'] {
+	float: left;
+}
+
+.logo {
+}
+
+.logo img {
+	max-width: 100px;
+}
+
+.title_image {
+	width: 100%;
+}
+
+main.main_feature {
+	margin-bottom: 25px;
+}
+
+.feature h3 {
+	color: #7d97ad;
+	font-weight: 300;
+	padding-left: 25px;
+}
+
+.feature article {
+	margin-bottom: 15px;
+}
+
+.feature article h4, h6 {
+	margin: 0;
+	text-align: center;
+}
+
+.feature article h6 {
+	font-size: 12px;
+	font-weight: 100;
+}
+
+article a:hover {
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 576px) {
+	.headline h1, h3{
+		text-align: center !important;
+	}
+	.container {
+		padding: 0;
+	}
+	.row {
+		width: 100%;
+		margin: 0px;
+	}
+	.logo {
+		width: 100%;
+		text-align: center;
+	}
+	.logo img {
+		width: 50px;
+	}
+	.feature h3 {
+		padding: 0;
+	}
+	.feature article {
+		margin-top: 15px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #7d97ad;
+	}
+}
