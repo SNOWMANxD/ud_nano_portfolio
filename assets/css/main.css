@@ -94,7 +94,7 @@ article a:hover {
 
 
 @media screen and (max-width: 576px) {
-	.headline h1, h3{
+	.headline h1, h3 {
 		text-align: center !important;
 	}
 	.container {
